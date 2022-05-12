@@ -150,6 +150,14 @@ header {
 
 /* End styling for the About Me section */
 
+.projects {
+  display: flex;
+}
+
+#recentWork img {
+  width: 50%;
+}
+
 /* Styling for the My Work Section */
 
 /* Styling for the Contact Me section */
