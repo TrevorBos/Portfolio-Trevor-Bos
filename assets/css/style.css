@@ -181,7 +181,6 @@ header {
 
 .recentWork {
   flex: 2;
-  justify-content: flex-start;
 }
 
 .project a h3 {
