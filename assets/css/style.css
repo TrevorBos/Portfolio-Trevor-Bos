@@ -19,7 +19,7 @@ body {
 /* Styling for the Header */
 header {
     padding: 20px 35px;
-    background-color: var(--primary-color);
+    background-color:rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -177,9 +177,9 @@ header {
   grid-auto-rows: var(--rowHeight);
   gap: var(--gap);
   border: 3px solid var(--secondary-color);
-  margin: 35px;
   background-color: var(--tertiary-color);
   border-radius: 15px;
+  margin: 35px;
 }
 
 .myWork > img {
@@ -195,19 +195,6 @@ header {
 
 .image-grid-row-2  {
   grid-row: span 2;
-}
-
-.myWorkLabels a {
-  display: inline-block;
-  padding: 5px;
-  background: var(--tertiary-color);
-  color: var(--primary-color);
-  border: 2px solid var(--tertiary-color);
-  border-radius: 15px;
-  border-color: var(--secondary-color);
-  text-shadow:none;
-  text-decoration: none;
-  opacity: 1;
 }
 
 /* Styling for the Contact Me section */
@@ -300,7 +287,7 @@ header {
 /* Any screen sizes under 980px */
 
 @media screen and (max-width: 980px) {
-  .myWork {
+  .myWork .box a {
     --numberColumns: 2;
     --rowHeight: 200px;
   }
