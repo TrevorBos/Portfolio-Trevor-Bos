@@ -156,7 +156,10 @@ header {
 
 /* Styling for the My Work Section */
 
-
+/* Makes the links invisible, next will add a hover effect to show the title in the middle of the image when you mouse over it. */
+.myWork a h3 {
+  visibility: hidden;
+}
 
 /* Styling for the Contact Me section */
 
