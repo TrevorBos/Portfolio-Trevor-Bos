@@ -181,6 +181,7 @@ header {
 
 .recentWork {
   flex: 2;
+  justify-content: flex-start;
 }
 
 .project a h3 {
@@ -200,9 +201,17 @@ header {
   border: 5px solid var(--secondary-color);
 }
 
+.project img:hover {
+  border: 5px solid green;
+}
+
 .recentWork img {
   border: 10px solid var(--secondary-color);
   min-width: 600px;
+}
+
+.recentWork img:hover {
+  border: 10px solid green;
 }
 
 
