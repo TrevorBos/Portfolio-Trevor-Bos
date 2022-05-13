@@ -6,8 +6,8 @@
 
 :root {
     --primary-color: #585656;
-    --secondary-color: #A81CD1;
-    --tertiary-color: #fff;
+    --secondary-color: #7c139c;
+    --tertiary-color: rgb(218, 218, 218);
 }
 
 body {
@@ -156,13 +156,7 @@ header {
 
 /* Styling for the My Work Section */
 
-.projects {
-  display: flex;
-}
 
-#recentWork img {
-  width: 50%;
-}
 
 /* Styling for the Contact Me section */
 
@@ -248,3 +242,5 @@ header {
   }
 
 /* End styling for the Footer*/
+
+/* Styling for media queries */
