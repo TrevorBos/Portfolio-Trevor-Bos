@@ -176,7 +176,7 @@ header {
   grid-template-columns: repeat(var(--numberColumns),1fr);
   grid-auto-rows: var(--rowHeight);
   gap: var(--gap);
-  border: 3px solid var(--secondary-color);
+  border: 5px solid var(--secondary-color);
   background-color: var(--tertiary-color);
   border-radius: 15px;
   margin: 35px;
@@ -187,6 +187,11 @@ header {
   height: 100%;
   object-fit: cover;
   border: 3px solid var(--secondary-color);
+  background-color: #7c139c;
+}
+
+.myWork > img:hover {
+  border: 5px solid green;
 }
 
 .image-grid-col-2  {
@@ -195,6 +200,21 @@ header {
 
 .image-grid-row-2  {
   grid-row: span 2;
+}
+
+.myWorkLabels a {
+  text-decoration: none;
+}
+
+.myWorkLabels a h3 {
+  display: inline-flex;
+  padding: 5px;
+  background: var(--tertiary-color);
+  color: var(--primary-color);
+  border: 2px solid var(--tertiary-color);
+  border-radius: 15px;
+  border-color: var(--secondary-color);
+  font-size: 24px;
 }
 
 /* Styling for the Contact Me section */
@@ -235,7 +255,6 @@ header {
   border-color: var(--secondary-color);
   text-shadow:none;
   text-decoration: none;
-  opacity: 1;
 }
 
 /* Styling for the Footer */
@@ -287,7 +306,7 @@ header {
 /* Any screen sizes under 980px */
 
 @media screen and (max-width: 980px) {
-  .myWork .box a {
+  .myWork {
     --numberColumns: 2;
     --rowHeight: 200px;
   }
