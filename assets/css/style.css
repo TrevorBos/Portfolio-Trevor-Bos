@@ -121,6 +121,8 @@ header nav ul li a:hover {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* End hero section */
+
 /* Styling for the About Me section */
 
 .sectionTitle {
@@ -164,6 +166,7 @@ header nav ul li a:hover {
 
 /* Styling for the My Work Section */
 
+/* Made a grid for the project layouts using display: grid */
 .myWork {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -228,6 +231,8 @@ header nav ul li a:hover {
   border: 10px solid green;
 }
 
+/* End my work section */
+
 /* Styling for the Contact Me section */
 
 .contactMe a {
@@ -267,6 +272,8 @@ header nav ul li a:hover {
   text-shadow: none;
   text-decoration: none;
 }
+
+/* End contact me section */
 
 /* Styling for the Footer */
 footer {
@@ -431,3 +438,5 @@ footer div:hover a {
   }
 
 }
+
+/* End media query section */
