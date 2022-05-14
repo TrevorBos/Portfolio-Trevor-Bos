@@ -166,22 +166,25 @@ header {
 /* Styling for the My Work Section */
 
 .myWork {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto;
   margin: 35px;
   background-color: var(--tertiary-color);
   border: 5px solid var(--secondary-color);
-  justify-content: space-between;
 }
 
 .project {
   padding: 10px;
   text-align: center;
-  flex: 1;
+
 }
 
 .recentWork {
-  flex: 2;
+  width: 20%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 .project a h3 {
@@ -198,6 +201,7 @@ header {
 .project img {
   width: 100%;
   min-width: 400px;
+  max-width: 500px;
   border: 5px solid var(--secondary-color);
 }
 
@@ -377,8 +381,3 @@ header {
   }
 
 
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
-
-  }
-}
