@@ -174,14 +174,14 @@ header nav ul li a:hover {
 }
 
 .project {
-  margin: 35px 35px;
-  justify-content: space-between;
+  margin: 15px 15px;
   align-items: center;
+  text-align: center;
 }
 
 .recentWork {
-  width: 20%;
-  margin: 35px 35px;
+  display: flex;
+  width: 50%;
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -212,8 +212,6 @@ header nav ul li a:hover {
 
 .project img {
   width: 100%;
-  min-width: 400px;
-  max-width: 500px;
   border: 5px solid var(--secondary-color);
 }
 
@@ -222,8 +220,8 @@ header nav ul li a:hover {
 }
 
 .recentWork img {
+  width: 190%;
   border: 10px solid var(--secondary-color);
-  min-width: 600px;
 }
 
 .recentWork img:hover {
