@@ -171,16 +171,19 @@ header {
   margin: 35px;
   background-color: var(--tertiary-color);
   border: 5px solid var(--secondary-color);
+  border-radius: 15px;
 }
 
 .project {
-  padding: 10px;
-  text-align: center;
+  margin: 35px 35px;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
 .recentWork {
   width: 20%;
+  margin: 35px 35px;
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -198,11 +201,23 @@ header {
   position: absolute;
 }
 
+.myWork a h3 {
+  padding: 5px;
+  margin: 20px;
+  color: var(--primary-color);
+  border: 3px solid var(--secondary-color);
+  border-radius: 15px;
+  background: var(--tertiary-color);
+  display: inline-block;
+  position: absolute;
+}
+
 .project img {
   width: 100%;
   min-width: 400px;
   max-width: 500px;
   border: 5px solid var(--secondary-color);
+  border-radius: 15px;
 }
 
 .project img:hover {
@@ -211,7 +226,7 @@ header {
 
 .recentWork img {
   border: 10px solid var(--secondary-color);
-  min-width: 600px;
+  border-radius: 15px;
 }
 
 .recentWork img:hover {
