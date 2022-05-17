@@ -437,14 +437,6 @@ footer div:hover a {
     font-size: 64px;
   }
 
-  .project a h3 {
-    visibility: hidden;
-  }
-  
-  .recentWork a h3 {
-    visibility: hidden;
-  }
-
 }
 
 /* End media query section */
