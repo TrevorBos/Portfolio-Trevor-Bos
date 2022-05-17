@@ -6,7 +6,7 @@
 
 :root {
   --primary-color: #585656;
-  --secondary-color: #7c139c;
+  --secondary-color: #1b68c0;
   --tertiary-color: rgb(218, 218, 218);
 }
 
@@ -169,7 +169,7 @@ header nav ul li a:hover {
 /* Made a grid for the project layouts using display: grid */
 .myWork {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat (auto-fit, minmax(15rem, 1fr));
   margin: 35px;
   background-color: var(--tertiary-color);
   border: 5px solid var(--secondary-color);
@@ -435,6 +435,14 @@ footer div:hover a {
   .hero h2 {
     margin: auto;
     font-size: 64px;
+  }
+
+  .project a h3 {
+    visibility: hidden;
+  }
+  
+  .recentWork a h3 {
+    visibility: hidden;
   }
 
 }
